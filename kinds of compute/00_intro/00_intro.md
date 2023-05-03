@@ -21,9 +21,11 @@ https://gwern.net/doc/cs/algorithm/2008-changizi.pdf
 
 - randmoness (binary spatter codes, vsa, sdm, hyperdimensional vectors)
 - neural (htm, sdm, feedbackAndResonance revisited.)
-- one bit turing complete ness: (golem?) (memory)
-https://foulab.org/projects/legionlabs-and-strawdog/golem/
+- one bit turing complete ness: (golem?) (memory)(iota combinator)
 
+
+https://foulab.org/projects/legionlabs-and-strawdog/golem/
+https://blog.wolfram.com/2007/10/24/the-prize-is-won-the-simplest-universal-turing-machine-is-proved/
 
 
 - quantum (geometric algebra)
