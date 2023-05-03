@@ -1392,9 +1392,9 @@
   
 
 
-<h1 id="aws-rosa">aws rosa</h1>
+<h1 id="aws-rosa">aws rosa<a class="headerlink" href="#aws-rosa" title="Permanent link">&para;</a></h1>
 <hr />
-<h2 id="00-overview">00 Overview</h2>
+<h2 id="00-overview">00 Overview<a class="headerlink" href="#00-overview" title="Permanent link">&para;</a></h2>
 <p>The role that is designated for use with rosa is: 
     AP_Rosa_minimumRequiredSCP_userRole</p>
 <p>The your rosa cli commands use whatever are your current the credentials for your aws cli. 
@@ -1406,7 +1406,7 @@ in general the steps to get rosa right is: </p>
 <li>04 example</li>
 </ul>
 <hr />
-<h2 id="01-use-aws-cli-to-get-session-token-for-mfa-session">01 use aws cli to get session token for MFA session.</h2>
+<h2 id="01-use-aws-cli-to-get-session-token-for-mfa-session">01 use aws cli to get session token for MFA session.<a class="headerlink" href="#01-use-aws-cli-to-get-session-token-for-mfa-session" title="Permanent link">&para;</a></h2>
 <p>To configre your aws cli, you use
 <div class="highlight"><pre><span></span><code><span class="go">aws configure</span>
 </code></pre></div></p>
@@ -1440,7 +1440,7 @@ BUT, to use the cli (with those credentials) you must get an MFA (multifactor au
 <div class="highlight"><pre><span></span><code><span class="go">aws sts get-caller-identity</span>
 </code></pre></div></p>
 <hr />
-<h2 id="02-set-the-environment-variables-with-the-mfa-session-token-info">02 set the environment variables with the MFA session token info.</h2>
+<h2 id="02-set-the-environment-variables-with-the-mfa-session-token-info">02 set the environment variables with the MFA session token info.<a class="headerlink" href="#02-set-the-environment-variables-with-the-mfa-session-token-info" title="Permanent link">&para;</a></h2>
 <p>Now that you have MFA creds set, you can assume the role "AP_Rosa_minimumRequiredSCP_userRole"</p>
 <ul>
 <li>a. run the follwing command:</li>
@@ -1467,17 +1467,17 @@ BUT, to use the cli (with those credentials) you must get an MFA (multifactor au
 </li>
 </ul>
 <hr />
-<h2 id="03-make-sure-rosa-is-using-the-expected-role">03 make sure rosa is using the expected role.</h2>
-<h5 id="run">run:</h5>
+<h2 id="03-make-sure-rosa-is-using-the-expected-role">03 make sure rosa is using the expected role.<a class="headerlink" href="#03-make-sure-rosa-is-using-the-expected-role" title="Permanent link">&para;</a></h2>
+<h5 id="run">run:<a class="headerlink" href="#run" title="Permanent link">&para;</a></h5>
 <p><div class="highlight"><pre><span></span><code><span class="go">rosa whoami</span>
 </code></pre></div>
 if in the output the value for "AWS ARN: " is the arn for "AP_Rosa_minimumRequiredSCP_userRole", 
 then that means commands run against rosa will use the role "AP_Rosa_minimumRequiredSCP_userRole".</p>
 <hr />
-<h2 id="04-walkthrough-example">04 Walkthrough example</h2>
+<h2 id="04-walkthrough-example">04 Walkthrough example<a class="headerlink" href="#04-walkthrough-example" title="Permanent link">&para;</a></h2>
 <p><a href="https://ibm.box.com/s/8o2qh2fekvp7cygdi40iuky1966x7h48">click here</a> </p>
 <hr />
-<h2 id="05-helpercode">05 helpercode</h2>
+<h2 id="05-helpercode">05 helpercode<a class="headerlink" href="#05-helpercode" title="Permanent link">&para;</a></h2>
 <p>this is the python helper code. </p>
 <p>copy the code to a new file. I will refer to the named file as "aws_cli_MFA_helper.py"
 edit the text "&lt; your_aws_id &gt;" ( at the end of the file).</p>

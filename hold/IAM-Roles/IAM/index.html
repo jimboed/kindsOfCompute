@@ -1446,9 +1446,9 @@
   
 
 
-<h1 id="how-use-iam-in-aws">How use IAM in aws.</h1>
+<h1 id="how-use-iam-in-aws">How use IAM in aws.<a class="headerlink" href="#how-use-iam-in-aws" title="Permanent link">&para;</a></h1>
 <hr />
-<h2 id="00-overview">00 Overview</h2>
+<h2 id="00-overview">00 Overview<a class="headerlink" href="#00-overview" title="Permanent link">&para;</a></h2>
 <ul>
 <li>01 Users</li>
 <li>02 Groups</li>
@@ -1465,16 +1465,16 @@
 <li>05 Example</li>
 </ul>
 <hr />
-<h2 id="01-users">01 Users</h2>
+<h2 id="01-users">01 Users<a class="headerlink" href="#01-users" title="Permanent link">&para;</a></h2>
 <p>Users are added to the account with their email. </p>
 <p>Users need to enable multifactor authentication. </p>
 <hr />
-<h2 id="02-groups">02 Groups</h2>
+<h2 id="02-groups">02 Groups<a class="headerlink" href="#02-groups" title="Permanent link">&para;</a></h2>
 <p>Instead of adding permissions to each user, we add permissions to groups, 
 and then associate a user with a group. If a user is a member of a group, 
 that user has the permissions of the group. </p>
 <hr />
-<h2 id="03-roles-assuming-roles">03 Roles: Assuming roles</h2>
+<h2 id="03-roles-assuming-roles">03 Roles: Assuming roles<a class="headerlink" href="#03-roles-assuming-roles" title="Permanent link">&para;</a></h2>
 <p>The role user is allowed to assume is based on the group the user is a member. For example if a user is present in the "Automation_Platform_Build_Global_ServiceSRE_LS" group, the user can assume the corresponding "AP_LS_ServiceSRE_userRole" role.</p>
 <p>It is reccommended by AWS use roles where ever possible, 
 since role based authentication is handled by time expiring tokens. </p>
@@ -1482,7 +1482,7 @@ since role based authentication is handled by time expiring tokens. </p>
 <p>Roles are given permssions, and users assume a role in order to take on the abilites
 they need to accomplish tasks. </p>
 <hr />
-<h4 id="to-assume-roles-in-the-console">to assume Roles in the console:</h4>
+<h4 id="to-assume-roles-in-the-console">to assume Roles in the console:<a class="headerlink" href="#to-assume-roles-in-the-console" title="Permanent link">&para;</a></h4>
 <p>The groups with the corresponding roles are as below:</p>
 <table>
 <thead>
@@ -1528,7 +1528,7 @@ they need to accomplish tasks. </p>
 <p><a href="https://signin.aws.amazon.com/switchrole?roleName=AP_LS_ServiceSRE_userRole&amp;account=automation-platform-build]">AP_LS_ServiceSRE_userRole</a></p>
 <p><a href="https://signin.aws.amazon.com/switchrole?roleName=AP_Rosa_minimumRequiredSCP_userRole&amp;account=automation-platform-build]">AP_Rosa_minimumRequiredSCP_userRole</a></p>
 <hr />
-<h4 id="to-assume-roles-in-the-aws-cli">to assume Roles in the aws CLI</h4>
+<h4 id="to-assume-roles-in-the-aws-cli">to assume Roles in the aws CLI<a class="headerlink" href="#to-assume-roles-in-the-aws-cli" title="Permanent link">&para;</a></h4>
 <p>To configre your aws cli, you use
 <div class="highlight"><pre><span></span><code><span class="go">aws configure</span>
 </code></pre></div>
@@ -1540,7 +1540,7 @@ However, if the following environment variables are set, aws cli will use those 
 <p>If these enviroment variables are not set, aws cli with use the credentials set up with "aws configure"
 BUT, to use the cli (with those credentials) you must get an MFA (multifactor authentication) session token. </p>
 <hr />
-<h5 id="if-mfa-is-required-for-the-user-if-mfa-is-not-required-skip-this-part">If MFA is required for the user: (If MFA is not required, skip this part. )</h5>
+<h5 id="if-mfa-is-required-for-the-user-if-mfa-is-not-required-skip-this-part">If MFA is required for the user: (If MFA is not required, skip this part. )<a class="headerlink" href="#if-mfa-is-required-for-the-user-if-mfa-is-not-required-skip-this-part" title="Permanent link">&para;</a></h5>
 <ul>
 <li>a. Get your user MFA device arn in the aws console. it is in the form :
 <div class="highlight"><pre><span></span><code><span class="go">arn:aws:iam::&lt;accountNumber&gt;:mfa/&lt;userEmail&gt;</span>
@@ -1565,7 +1565,7 @@ BUT, to use the cli (with those credentials) you must get an MFA (multifactor au
 </code></pre></div>
 Now that you have MFA creds set, you can assume a role.</p>
 <hr />
-<h5 id="get-temporary-tokens-for-role">Get Temporary tokens for role:</h5>
+<h5 id="get-temporary-tokens-for-role">Get Temporary tokens for role:<a class="headerlink" href="#get-temporary-tokens-for-role" title="Permanent link">&para;</a></h5>
 <ul>
 <li>a. run the follwing command:</li>
 </ul>
@@ -1593,7 +1593,7 @@ Now that you have MFA creds set, you can assume a role.</p>
 </li>
 </ul>
 <hr />
-<h2 id="04-roles-assuming-userroles-to-create-serviceroles">04 Roles: assuming userRoles to create serviceRoles</h2>
+<h2 id="04-roles-assuming-userroles-to-create-serviceroles">04 Roles: assuming userRoles to create serviceRoles<a class="headerlink" href="#04-roles-assuming-userroles-to-create-serviceroles" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="go">user -&gt; ASSUMES -&gt; userRole</span>
 
 <span class="go">userRole -&gt; CREATES -&gt; serviceRole </span>
@@ -1636,7 +1636,7 @@ that user has restrictions on the service role they can create. </p>
 <p>If these 2 requirements are not met, the serviceRole cannot be created. </p>
 <p>Once a serviceRole is created, it can be passed to a service by the userRole in the provisioning and configuration of resources. </p>
 <hr />
-<h2 id="05-walkthrough-example">05 Walkthrough Example</h2>
+<h2 id="05-walkthrough-example">05 Walkthrough Example<a class="headerlink" href="#05-walkthrough-example" title="Permanent link">&para;</a></h2>
 <p><a href="https://ibm.box.com/s/rs07q3tu1ym5sax8mv4dw9abkpj8vj43">click here</a> </p>
 
 

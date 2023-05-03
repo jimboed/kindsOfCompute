@@ -1324,9 +1324,9 @@
   
 
 
-<h1 id="account-permissions-replicaiton-pseudocode">Account permissions replicaiton pseudocode</h1>
+<h1 id="account-permissions-replicaiton-pseudocode">Account permissions replicaiton pseudocode<a class="headerlink" href="#account-permissions-replicaiton-pseudocode" title="Permanent link">&para;</a></h1>
 <hr />
-<h2 id="00-overview">00 Overview</h2>
+<h2 id="00-overview">00 Overview<a class="headerlink" href="#00-overview" title="Permanent link">&para;</a></h2>
 <p>Objective: given that </p>
 <ul>
 <li>Account A has users, </li>
@@ -1338,7 +1338,7 @@
 <p>and 
 - we could like those users, groups, userRoles, serviceRoles, services and permission broundaries reflected in Account B...</p>
 <p>these are the steps to execute that reflection</p>
-<h2 id="us">US:</h2>
+<h2 id="us">US:<a class="headerlink" href="#us" title="Permanent link">&para;</a></h2>
 <p>in Account A: 
 - get lists of users, groups, and roles (called enitities)
 - for each entity, get list of inline and managed policies
@@ -1350,69 +1350,72 @@
 <hr />
 <p>-- in the console for Account A -- </p>
 <hr />
-<div class="highlight"><pre><span></span><code>for each userRole, and serviceRole 
-    use access analyzer to generate a policy (based on cloudtrail event history) that enables the minimum access
-        this creates a template that needs to be filled completed
+<div class="codehilite"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="nv">each</span><span class="w"> </span><span class="nv">userRole</span>,<span class="w"> </span><span class="nv">and</span><span class="w"> </span><span class="nv">serviceRole</span><span class="w"> </span>
+<span class="w">    </span><span class="nv">use</span><span class="w"> </span><span class="nv">access</span><span class="w"> </span><span class="nv">analyzer</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">generate</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">policy</span><span class="w"> </span><span class="ss">(</span><span class="nv">based</span><span class="w"> </span><span class="nv">on</span><span class="w"> </span><span class="nv">cloudtrail</span><span class="w"> </span><span class="nv">event</span><span class="w"> </span><span class="nv">history</span><span class="ss">)</span><span class="w"> </span><span class="nv">that</span><span class="w"> </span><span class="nv">enables</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">minimum</span><span class="w"> </span><span class="nv">access</span>
+<span class="w">        </span><span class="nv">this</span><span class="w"> </span><span class="nv">creates</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">template</span><span class="w"> </span><span class="nv">that</span><span class="w"> </span><span class="nv">needs</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">be</span><span class="w"> </span><span class="nv">filled</span><span class="w"> </span><span class="nv">completed</span>
 
-    attach generated policy to role 
-        as permission boundary?
+<span class="w">    </span><span class="nv">attach</span><span class="w"> </span><span class="nv">generated</span><span class="w"> </span><span class="nv">policy</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">role</span><span class="w"> </span>
+<span class="w">        </span><span class="nv">as</span><span class="w"> </span><span class="nv">permission</span><span class="w"> </span><span class="nv">boundary</span>?
 </code></pre></div>
+
 <hr />
 <p>-- in the cli with credentials for Account A --  </p>
 <hr />
-<div class="highlight"><pre><span></span><code>users  = get list of users 
-roles = get list of roles
-groups = get list of groups
+<div class="codehilite"><pre><span></span><code><span class="nv">users</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">users</span><span class="w"> </span>
+<span class="nv">roles</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">roles</span>
+<span class="nv">groups</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">groups</span>
 
-policies = { this is where policy names are accumulated}
+<span class="nv">policies</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>{<span class="w"> </span><span class="nv">this</span><span class="w"> </span><span class="nv">is</span><span class="w"> </span><span class="nv">where</span><span class="w"> </span><span class="nv">policy</span><span class="w"> </span><span class="nv">names</span><span class="w"> </span><span class="nv">are</span><span class="w"> </span><span class="nv">accumulated</span>}
 
-for each user, 
-    get list of inline policies attached to user
-    get list of managed polices attached to user
-    get list of groups user is in.
+<span class="k">for</span><span class="w"> </span><span class="nv">each</span><span class="w"> </span><span class="nv">user</span>,<span class="w"> </span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">inline</span><span class="w"> </span><span class="nv">policies</span><span class="w"> </span><span class="nv">attached</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">user</span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">managed</span><span class="w"> </span><span class="nv">polices</span><span class="w"> </span><span class="nv">attached</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">user</span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">groups</span><span class="w"> </span><span class="nv">user</span><span class="w"> </span><span class="nv">is</span><span class="w"> </span><span class="nv">in</span>.
 
-for each group: 
-    get list of inline policies attached to group
-    get list of managed polices attached to group
-
-
-for each role
-    get list of inline policies attached to role
-    get list of managed polices attached to role
-        (in the case of serviceRoles, this will include permisison boundary policies)
+<span class="k">for</span><span class="w"> </span><span class="nv">each</span><span class="w"> </span><span class="nv">group</span>:<span class="w"> </span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">inline</span><span class="w"> </span><span class="nv">policies</span><span class="w"> </span><span class="nv">attached</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">group</span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">managed</span><span class="w"> </span><span class="nv">polices</span><span class="w"> </span><span class="nv">attached</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">group</span>
 
 
+<span class="k">for</span><span class="w"> </span><span class="nv">each</span><span class="w"> </span><span class="nv">role</span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">inline</span><span class="w"> </span><span class="nv">policies</span><span class="w"> </span><span class="nv">attached</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">role</span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">managed</span><span class="w"> </span><span class="nv">polices</span><span class="w"> </span><span class="nv">attached</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">role</span>
+<span class="w">        </span><span class="ss">(</span><span class="nv">in</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">case</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">serviceRoles</span>,<span class="w"> </span><span class="nv">this</span><span class="w"> </span><span class="nv">will</span><span class="w"> </span><span class="k">include</span><span class="w"> </span><span class="nv">permisison</span><span class="w"> </span><span class="nv">boundary</span><span class="w"> </span><span class="nv">policies</span><span class="ss">)</span>
 
-for each policy name that has been accumulated: 
-    get the role info
-        (which includes the default version id, and the policy, as json)
+
+
+<span class="k">for</span><span class="w"> </span><span class="nv">each</span><span class="w"> </span><span class="nv">policy</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="nv">that</span><span class="w"> </span><span class="nv">has</span><span class="w"> </span><span class="nv">been</span><span class="w"> </span><span class="nv">accumulated</span>:<span class="w"> </span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">role</span><span class="w"> </span><span class="nv">info</span>
+<span class="w">        </span><span class="ss">(</span><span class="nv">which</span><span class="w"> </span><span class="nv">includes</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">default</span><span class="w"> </span><span class="nv">version</span><span class="w"> </span><span class="nv">id</span>,<span class="w"> </span><span class="nv">and</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">policy</span>,<span class="w"> </span><span class="nv">as</span><span class="w"> </span><span class="nv">json</span><span class="ss">)</span>
 </code></pre></div>
+
 <hr />
 <p>-- in the cli with credentials for Account B -- </p>
 <hr />
-<div class="highlight"><pre><span></span><code>read in data ( from previous step ) for: 
-    users  
-    roles 
-    groups 
-    policies
+<div class="codehilite"><pre><span></span><code><span class="nv">read</span><span class="w"> </span><span class="nv">in</span><span class="w"> </span><span class="nv">data</span><span class="w"> </span><span class="ss">(</span><span class="w"> </span><span class="nv">from</span><span class="w"> </span><span class="nv">previous</span><span class="w"> </span><span class="nv">step</span><span class="w"> </span><span class="ss">)</span><span class="w"> </span><span class="k">for</span>:<span class="w"> </span>
+<span class="w">    </span><span class="nv">users</span><span class="w">  </span>
+<span class="w">    </span><span class="nv">roles</span><span class="w"> </span>
+<span class="w">    </span><span class="nv">groups</span><span class="w"> </span>
+<span class="w">    </span><span class="nv">policies</span>
 
-for policies: 
-    create policy 
-        (which includes policy json)
-
-
-for entity in [users, groups, roles]: 
-    if entity doesnt exist: 
-        create entity
-
-    attach all policies to entity
-        (including permission boundaries)
+<span class="k">for</span><span class="w"> </span><span class="nv">policies</span>:<span class="w"> </span>
+<span class="w">    </span><span class="nv">create</span><span class="w"> </span><span class="nv">policy</span><span class="w"> </span>
+<span class="w">        </span><span class="ss">(</span><span class="nv">which</span><span class="w"> </span><span class="nv">includes</span><span class="w"> </span><span class="nv">policy</span><span class="w"> </span><span class="nv">json</span><span class="ss">)</span>
 
 
-    if user: 
-        add user to groups
+<span class="k">for</span><span class="w"> </span><span class="nv">entity</span><span class="w"> </span><span class="nv">in</span><span class="w"> </span>[<span class="nv">users</span>,<span class="w"> </span><span class="nv">groups</span>,<span class="w"> </span><span class="nv">roles</span>]:<span class="w"> </span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nv">entity</span><span class="w"> </span><span class="nv">doesnt</span><span class="w"> </span><span class="nv">exist</span>:<span class="w"> </span>
+<span class="w">        </span><span class="nv">create</span><span class="w"> </span><span class="nv">entity</span>
+
+<span class="w">    </span><span class="nv">attach</span><span class="w"> </span><span class="nv">all</span><span class="w"> </span><span class="nv">policies</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">entity</span>
+<span class="w">        </span><span class="ss">(</span><span class="nv">including</span><span class="w"> </span><span class="nv">permission</span><span class="w"> </span><span class="nv">boundaries</span><span class="ss">)</span>
+
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nv">user</span>:<span class="w"> </span>
+<span class="w">        </span><span class="nv">add</span><span class="w"> </span><span class="nv">user</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">groups</span>
 </code></pre></div>
-<h2 id="them">THEM:</h2>
+
+<h2 id="them">THEM:<a class="headerlink" href="#them" title="Permanent link">&para;</a></h2>
 <ul>
 <li>get list of resources (using tags) in Account A to be replicated in Account B</li>
 <li>for each resource in Account A, get confguration details (which includes the role that the resource is allowed to assume). </li>
@@ -1421,18 +1424,20 @@ for entity in [users, groups, roles]:
 <hr />
 <p>-- in the cli or with credentials for Account A -- </p>
 <hr />
-<div class="highlight"><pre><span></span><code>resources = (using tags and resource groups) get list of resources to replicate
+<div class="codehilite"><pre><span></span><code><span class="nv">resources</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ss">(</span><span class="nv">using</span><span class="w"> </span><span class="nv">tags</span><span class="w"> </span><span class="nv">and</span><span class="w"> </span><span class="nv">resource</span><span class="w"> </span><span class="nv">groups</span><span class="ss">)</span><span class="w"> </span><span class="nv">get</span><span class="w"> </span><span class="nv">list</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">resources</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">replicate</span>
 
-for each resource, 
-    get the role that this resource is entitled to use
+<span class="k">for</span><span class="w"> </span><span class="nv">each</span><span class="w"> </span><span class="nv">resource</span>,<span class="w"> </span>
+<span class="w">    </span><span class="nv">get</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">role</span><span class="w"> </span><span class="nv">that</span><span class="w"> </span><span class="nv">this</span><span class="w"> </span><span class="nv">resource</span><span class="w"> </span><span class="nv">is</span><span class="w"> </span><span class="nv">entitled</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">use</span>
 </code></pre></div>
+
 <hr />
 <p>-- in the cli or with credentials for Account B -- </p>
 <hr />
-<div class="highlight"><pre><span></span><code>for each service: 
-    create service
-    pass appropraiate role from Account A to service in Account B
+<div class="codehilite"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="nv">each</span><span class="w"> </span><span class="nv">service</span>:<span class="w"> </span>
+<span class="w">    </span><span class="nv">create</span><span class="w"> </span><span class="nv">service</span>
+<span class="w">    </span><span class="nv">pass</span><span class="w"> </span><span class="nv">appropraiate</span><span class="w"> </span><span class="nv">role</span><span class="w"> </span><span class="nv">from</span><span class="w"> </span><span class="nv">Account</span><span class="w"> </span><span class="nv">A</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">service</span><span class="w"> </span><span class="nv">in</span><span class="w"> </span><span class="nv">Account</span><span class="w"> </span><span class="nv">B</span>
 </code></pre></div>
+
 <p>ex: </p>
 <div class="highlight"><pre><span></span><code><span class="go">aws resource-groups list-groups</span>
 </code></pre></div>
