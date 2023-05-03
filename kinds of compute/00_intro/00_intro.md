@@ -8,16 +8,23 @@
 - cyclic tag systems
 - cellular automata (rule 110, game of life)
 - pictures (interaction nets)
+https://gwern.net/doc/cs/algorithm/2008-changizi.pdf
 - tilting 1
 - tilting 2 (permtations)
+- arrangement (https://chemlambda.github.io)
 - mov is turing complete
-- rotation 1 (holographic reduced representaitons, phase cancellation )
+- rotation 1 (holographic reduced representaitons, interference and phase cancellation )
 - rotation 2 (feedback, and resonance)
 
 - randmoness (binary spatter codes, vsa, sdm, hyperdimensional vectors)
 - neural (htm, sdm, feedbackAndResonance revisited.)
-- quantum 
-- interaction
+- one bit turing complete ness: (golem?) (memory)
+
+
+
+- quantum (geometric algebra)
+- interaction is computation
+
 ```
 if a physics system can create a computer, 
 that i can then write a program to encode another computaitonal system, 
