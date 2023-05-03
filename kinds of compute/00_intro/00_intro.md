@@ -1,6 +1,8 @@
 
 # kinds of compute
+:fontawesome-regular-face-laugh-wink:
 
+:fa-solid fa-sailboat:
 
 ### kinds topics
 - lambda
