@@ -406,8 +406,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#flowchartjs" class="md-nav__link">
-    Flowchart.js
+  <a href="#flowchart" class="md-nav__link">
+    Flowchart
   </a>
   
 </li>
@@ -1298,8 +1298,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#flowchartjs" class="md-nav__link">
-    Flowchart.js
+  <a href="#flowchart" class="md-nav__link">
+    Flowchart
   </a>
   
 </li>
@@ -1365,23 +1365,13 @@ A-&gt;B: Normal line
 B--&gt;C: Dashed line
 C-&gt;&gt;D: Open arrow
 D--&gt;&gt;A: Dashed open arrow</div>
-<h2 id="flowchartjs">Flowchart.js<a class="headerlink" href="#flowchartjs" title="Permanent link">&para;</a></h2>
+<h2 id="flowchart">Flowchart<a class="headerlink" href="#flowchart" title="Permanent link">&para;</a></h2>
 <div class="mermaid">graph LR
-st=&gt;start: Start|past:&gt;http://www.google.com[blank]
-e=&gt;end: End|future:&gt;http://www.google.com
-op1=&gt;operation: My Operation|past
-op2=&gt;operation: Stuff|current
-sub1=&gt;subroutine: My Subroutine|invalid
-cond=&gt;condition: Yes
-or No?|approved:&gt;http://www.google.com
-c2=&gt;condition: Good idea|rejected
-io=&gt;inputoutput: catch something...|future
-
-st-&gt;op1(right)-&gt;cond
-cond(yes, right)-&gt;c2
-cond(no)-&gt;sub1(left)-&gt;op1
-c2(yes)-&gt;io-&gt;e
-c2(no)-&gt;op2-&gt;e</div>
+  A[Start] --&gt; B{Error?};
+  B --&gt;|Yes| C[Hmm...];
+  C --&gt; D[Debug];
+  D --&gt; B;
+  B ----&gt;|No| E[Yay!];</div>
 
 
 

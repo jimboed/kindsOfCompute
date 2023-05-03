@@ -49,22 +49,12 @@ C->>D: Open arrow
 D-->>A: Dashed open arrow
 ```
 
-## Flowchart.js
-```mermaid
+## Flowchart
+``` mermaid
 graph LR
-st=>start: Start|past:>http://www.google.com[blank]
-e=>end: End|future:>http://www.google.com
-op1=>operation: My Operation|past
-op2=>operation: Stuff|current
-sub1=>subroutine: My Subroutine|invalid
-cond=>condition: Yes
-or No?|approved:>http://www.google.com
-c2=>condition: Good idea|rejected
-io=>inputoutput: catch something...|future
-
-st->op1(right)->cond
-cond(yes, right)->c2
-cond(no)->sub1(left)->op1
-c2(yes)->io->e
-c2(no)->op2->e
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
 ```
