@@ -1,7 +1,7 @@
 https://github.com/squidfunk/mkdocs-material/tree/master/material/.icons
 
 
-
+fontawesome-regular
 :fontawesome-regular-address-book:
 :fontawesome-regular-address-card:
 :fontawesome-regular-bell-slash:
@@ -168,7 +168,7 @@ https://github.com/squidfunk/mkdocs-material/tree/master/material/.icons
 
 
 
-
+fontawesome-solid
 :fontawesome-solid-0:
 :fontawesome-solid-1:
 :fontawesome-solid-2:
@@ -1567,8 +1567,7 @@ https://github.com/squidfunk/mkdocs-material/tree/master/material/.icons
 
 
 
-
-
+fontawesome-brands
 :fontawesome-brands-42-group:
 :fontawesome-brands-500px:
 :fontawesome-brands-accessible-icon:
@@ -2040,7 +2039,7 @@ https://github.com/squidfunk/mkdocs-material/tree/master/material/.icons
 
 
 
-
+material
 :material-ab-testing:
 :material-abacus:
 :material-abjad-arabic:
@@ -9339,6 +9338,13 @@ LICENSE
 :material-zodiac-taurus:
 :material-zodiac-virgo:
 
+
+
+
+
+
+
+octonions
 :octonions-accessibility-16:
 :octonions-accessibility-inset-16:
 :octonions-alert-16:
@@ -9917,6 +9923,15 @@ LICENSE
 :octonions-zoom-out-16:
 :octonions-zoom-out-24:
 
+
+
+
+
+
+
+
+
+simple
 :simple-1password:
 :simple-3m:
 :simple-4chan:
