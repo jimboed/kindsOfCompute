@@ -2,7 +2,7 @@
 # kinds of compute
 :fontawesome-regular-face-laugh-wink:
 
-:fa-solid fa-sailboat:
+:fontawesome-sailboat:
 
 ### kinds topics
 - lambda
