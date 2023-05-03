@@ -5,7 +5,8 @@
 ### kinds topics
 - lambda
 - turning
-- cellular automata
+- cyclic tag systems
+- cellular automata (rule 110, game of life)
 - pictures (interaction nets)
 - tilting 1
 - tilting 2 (permtations)
@@ -16,6 +17,16 @@
 - randmoness (binary spatter codes, vsa, sdm, hyperdimensional vectors)
 - neural (htm, sdm, feedbackAndResonance revisited.)
 - quantum 
+- interaction
+```
+if a physics system can create a computer, that i can then write a program to encode another computaitonal system, that encodes and runs a prgram that follows all the same rules as physics, and use that simulated physics program to then encode a computer, isnt that initial physics system a computational system? 
+
+and in that case, arent atoms? 
+
+and in that case, arent ALL interactions? 
+
+
+```
 
 
 ### secondary topics
