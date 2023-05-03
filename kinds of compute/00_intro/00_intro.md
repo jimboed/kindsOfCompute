@@ -21,7 +21,11 @@
 - quantum 
 - interaction
 ```
-if a physics system can create a computer, that i can then write a program to encode another computaitonal system, that encodes and runs a prgram that follows all the same rules as physics, and use that simulated physics program to then encode a computer, isnt that initial physics system a computational system? 
+if a physics system can create a computer, 
+that i can then write a program to encode another computaitonal system, 
+that encodes and runs a prgram that follows all the same rules as physics, 
+and use that simulated physics program to then encode a computer, 
+isnt that initial physics system a computational system that gives the ability to run a program that can encode a computer? 
 
 and in that case, arent atoms? 
 
