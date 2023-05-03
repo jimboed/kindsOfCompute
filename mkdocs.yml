@@ -1,0 +1,86 @@
+site_name: <b>Jim Ed/b> kinds of compute Docs
+site_description: kinds of compute
+site_author: FA
+
+nav:
+
+icon:
+    logo: "cloud"
+
+theme:
+    name: "material"
+    custom_dir: "theme"
+    font:
+        text: "Plex Sans"
+        code: "Plex Mono"
+    features:
+        - tabs
+
+    favicon: "assets/images/favicon.ico"
+
+plugins:
+    - search
+    # - monorepo
+    - git-revision-date-localized
+
+markdown_extensions:
+    - toc:
+          permalink: true
+    - admonition
+    - footnotes
+    - fontawesome_markdown
+    - pymdownx.arithmatex
+    - markdown.extensions.attr_list
+    - pymdownx.tabbed
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - attr_list
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.progressbar
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences:
+          custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_div_format
+              - name: flow
+                class: uml-flowchart
+                format: !!python/name:pymdownx.superfences.fence_code_format
+              - name: sequence
+                class: uml-sequence-diagram
+                format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.tasklist:
+          custom_checkbox: true
+          clickable_checkbox: true
+    - pymdownx.tilde
+    - codehilite:
+          guess_lang: true
+    - plantuml_markdown:
+          server: "http://www.plantuml.com/plantuml"
+
+
+
+repo_name: "jimboed/kindsOfCompute"
+repo_url: "https://github.com/jimboed/kindsOfCompute"
+edit_uri: "edit/master/docs/"
+
+extra_css:
+    - css/sidebar.css
+    - css/color.css
+    - https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js
+    - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+    # - https://cdn.jsdelivr.net/gh/faraz/mkdocs-js/umlconvert.js
+    - https://unpkg.com/mermaid@8.5.0/dist/mermaid.min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.13.0/flowchart.min.js
+    - https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams/dist/sequence-diagram-min.js

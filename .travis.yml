@@ -1,0 +1,33 @@
+sudo: required
+language: python
+python:
+  - "3.5"
+
+branches:
+  only:
+    - master
+notifications:
+  email: false
+
+install:
+  - pip install mkdocs==1.1.2
+  - pip install mkdocs-material==5.1.0
+  - pip install plantuml-markdown==3.3.0
+  - pip install pymdown-extensions==8.0
+  - pip install pygments==2.6.1
+  - pip install fontawesome_markdown==0.2.6
+  - pip install mkdocs-git-committers-plugin==0.1.9
+  - pip install mkdocs-git-revision-date-localized-plugin==0.7
+
+script:
+  - mkdocs build --verbose --clean
+
+deploy:
+  - provider: pages
+    github_url: github.ibm.com
+    github_token: $GITHUB_ENTERPRISE_TOKEN
+    target_branch: gh-pages
+    skip_cleanup: true
+    local_dir: site
+    on:
+      branch: master
