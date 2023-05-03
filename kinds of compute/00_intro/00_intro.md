@@ -1,6 +1,6 @@
 
 # kinds of compute
-:fontawesome-regular-face-laugh-wink:
+:fa-camera-retro fa-4x:
 
 :fa-long-arrow-left:
 
