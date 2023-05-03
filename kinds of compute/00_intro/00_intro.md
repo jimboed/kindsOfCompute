@@ -3,8 +3,11 @@
 :simple-azuredataexplorer:
 
 ### kinds topics
-- lambda
-- turning
+- lambda 
+- turning 
+- nots ands ors(actually, evertyhing is a nand.)
+but nands arent the only things that compute.
+
 - cyclic tag systems
 - cellular automata (rule 110, game of life)
 - pictures (interaction nets)
@@ -19,6 +22,7 @@ https://gwern.net/doc/cs/algorithm/2008-changizi.pdf
 - randmoness (binary spatter codes, vsa, sdm, hyperdimensional vectors)
 - neural (htm, sdm, feedbackAndResonance revisited.)
 - one bit turing complete ness: (golem?) (memory)
+https://foulab.org/projects/legionlabs-and-strawdog/golem/
 
 
 
