@@ -1,8 +1,6 @@
 
 # kinds of compute
-:fa-camera-retro fa-4x:
-
-:fa-long-arrow-left:
+:simple-azuredataexplorer:
 
 ### kinds topics
 - lambda
