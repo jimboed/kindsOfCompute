@@ -41,6 +41,7 @@ graph TD;
 
 ## Sequence Diagrams
 ```mermaid
+sequenceDiagram
 Title: Here is a title
 A->B: Normal line
 B-->C: Dashed line
@@ -50,7 +51,7 @@ D-->>A: Dashed open arrow
 
 ## Flowchart.js
 ```mermaid
-
+graph LR
 st=>start: Start|past:>http://www.google.com[blank]
 e=>end: End|future:>http://www.google.com
 op1=>operation: My Operation|past
