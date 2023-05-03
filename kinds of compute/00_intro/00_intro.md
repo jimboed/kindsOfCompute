@@ -1,6 +1,8 @@
 
 # kinds of compute
 
+
+### kinds topics
 - lambda
 - turning
 - cellular automata
@@ -12,9 +14,13 @@
 - rotation 2 (feedback, and resonance)
 
 - randmoness (binary spatter codes, vsa, sdm, hyperdimensional vectors)
-- neural (htm, sdm, feedbackand resonance revisited.)
+- neural (htm, sdm, feedbackAndResonance revisited.)
 - quantum 
 
+
+### secondary topics
+- distinguishability
+- counterfactuals (science of can and cant)
 - these arent the ony ones. there are others undiscovered and unrealised. 
 - emergence (computational systems that encode comutational systems)
 ```

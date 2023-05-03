@@ -1,10 +1,10 @@
 title:
 
-# APaaS Security and Compliance
+# Jim's scratch pad.
 
 <center><img src="https://media.github.ibm.com/user/15724/files/f5f1ec80-dde6-11e9-80b8-25845518a517" alt="drawing" width="500"/></img></center>
 
-Welcome. This repository serves as operational guides for APaaS.
+Welcome. This repository serves as operational guides.
 
  
 
