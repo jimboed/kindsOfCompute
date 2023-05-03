@@ -1,3 +1,3 @@
-# ☁ APaaS Security and Compliance Docs
+# ☁ kinds of compute docs
 
-https://pages.github.ibm.com/APaaS/playbooks/
+https://jimboed.github.io/kindsOfCompute/
