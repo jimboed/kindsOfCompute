@@ -6,15 +6,15 @@ At minimum, we all have to be on board with these first ideas.
 
 ### topics
 
-- howard marks 2 books, 
+#### howard marks 2 books, 
   - mastering the market cycle
   - the most important thing
 
-- nathan kutz/steve brunton data science book: 
+#### nathan kutz/steve brunton data science book: 
   - https://www.youtube.com/@NathanKutzAMATH/videos
-  - https://www.youtube.com/@Eigensteve
+  - https://www.youtube.com/@Eigensteve/videos
 
-- anton kriel
+#### anton kriel
   - https://www.youtube.com/watch?v=vbuborn14Mc
   - https://www.youtube.com/watch?v=-UG11JzWzMY
   - https://www.youtube.com/watch?v=OReolQm34TQ
@@ -26,7 +26,7 @@ At minimum, we all have to be on board with these first ideas.
 
 
 
-- quantopian lectures:
+#### quantopian lectures:
   
   - Lecture 1: Introduction to Research — [[📝Lecture Notebooks](https://github.com/quantopian/research_public/tree/master/notebooks/lectures/Introduction_to_Research)] [[▶️Video](https://www.youtube.com/watch?v=W-TlWzwM208)]\
   - Lecture 2: Introduction to Python — [[📝Lecture Notebooks](https://github.com/quantopian/research_public/tree/master/notebooks/lectures/Introduction_to_Python)] [[▶️Video](https://www.youtube.com/watch?v=bQUWLkKzpxE)]\
