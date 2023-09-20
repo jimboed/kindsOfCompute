@@ -1,14 +1,14 @@
 
-# theoretical Minimum.
-Theres lots to try, lots to find, lots to learn, and lots to talk about.
-This is the "reading list starting place". 
-At minimum, we all have to be on board with these first ideas. 
+# theoretical advancements.
+These are more advanced ideas, not the basics, and they wont nessicarily work. 
+
+its a springboard to launch from once we agree on the minimum. 
 
 ## topics
 
-### howard marks 2 books, 
-  - mastering the market cycle
-  - the most important thing
+### books, 
+  - mastering the market cycle - Howard Marks
+  - the most important thing - Howard Marks
 
 
 
