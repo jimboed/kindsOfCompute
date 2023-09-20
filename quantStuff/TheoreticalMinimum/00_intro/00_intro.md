@@ -10,9 +10,13 @@ At minimum, we all have to be on board with these first ideas.
   - mastering the market cycle
   - the most important thing
 
+
+
 ### nathan kutz/steve brunton data science book: 
   - https://www.youtube.com/@NathanKutzAMATH/videos
   - https://www.youtube.com/@Eigensteve/videos
+
+
 
 ### anton kriel
   - https://www.youtube.com/watch?v=vbuborn14Mc
@@ -24,6 +28,7 @@ At minimum, we all have to be on board with these first ideas.
   - https://www.youtube.com/watch?v=VXOHks84L5s
 
 
+
 ### evolutionary robotics
   - i include this one because this is a lot about the relationships among sensors/actuators/feedback and 
   
@@ -32,6 +37,13 @@ At minimum, we all have to be on board with these first ideas.
     - how to evolve a more accurate model of the system youre trying to simulate, so that testing is more relevant to real world constraints.
 
   - https://www.youtube.com/@joshbongard3314/playlists
+
+
+
+### vector Symbolic architectures 
+  - https://www.hd-computing.com/course-computing-with-high-dimensional-vectors
+
+
 
 ### quantopian lectures
   
