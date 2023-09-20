@@ -27,9 +27,9 @@ At minimum, we all have to be on board with these first ideas.
 ### evolutionary robotics
   - i include this one because this is a lot about the relationships among sensors/actuators/feedback and 
   
-  since youre testing on a simulator, 
+    - since youre testing on a simulator, 
 
-  how to evolve a more accurate model of the system youre trying to simulate, so that testing is more relevant to real world constraints.
+    - how to evolve a more accurate model of the system youre trying to simulate, so that testing is more relevant to real world constraints.
 
   - https://www.youtube.com/@joshbongard3314/playlists
 
