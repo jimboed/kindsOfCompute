@@ -1,18 +1,22 @@
 
-# theoretical Minimum.
-Theres lots to try, lots to find, lots to learn, and lots to talk about.
-This is the "reading list starting place". 
-At minimum, we all have to be on board with these first ideas. 
+# theoretical advancements.
+These are more advanced ideas, not the basics, and they wont nessicarily work. 
+
+its a springboard to launch from once we agree on the minimum. 
 
 ## topics
 
-### howard marks 2 books, 
-  - mastering the market cycle
-  - the most important thing
+### books, 
+  - mastering the market cycle - Howard Marks
+  - the most important thing - Howard Marks
+
+
 
 ### nathan kutz/steve brunton data science book: 
   - https://www.youtube.com/@NathanKutzAMATH/videos
   - https://www.youtube.com/@Eigensteve/videos
+
+
 
 ### anton kriel
   - https://www.youtube.com/watch?v=vbuborn14Mc
@@ -24,14 +28,6 @@ At minimum, we all have to be on board with these first ideas.
   - https://www.youtube.com/watch?v=VXOHks84L5s
 
 
-### evolutionary robotics
-  - i include this one because this is a lot about the relationships among sensors/actuators/feedback and 
-  
-  since youre testing on a simulator, 
-
-  how to evolve a more accurate model of the system youre trying to simulate, so that testing is more relevant to real world constraints.
-
-  - https://www.youtube.com/@joshbongard3314/playlists
 
 ### quantopian lectures
   
@@ -91,3 +87,63 @@ At minimum, we all have to be on board with these first ideas.
   - Lecture 54: Example: Pairs Trading on Futures — [[📝Lecture Notebooks](https://github.com/quantopian/research_public/tree/master/notebooks/lectures/Introduction_to_Pairs_Trading)]
   - Lecture 55: Case Study: Traditional Value Factor — [[📝Lecture Notebooks](https://github.com/quantopian/research_public/tree/master/notebooks/lectures/Case_Study_Traditional_Value_Factor)]
   - Lecture 56: Case Study: Comparing ETFs — [[📝Lecture Notebooks](https://github.com/quantopian/research_public/tree/master/notebooks/lectures/Case_Study_Comparing_ETFs)]
+
+
+
+
+
+
+### evolutionary robotics
+  - i include this one because this is a lot about the relationships among sensors/actuators/feedback and 
+  
+    - since youre testing on a simulator, 
+
+    - how to evolve a more accurate model of the system youre trying to simulate, so that testing is more relevant to real world constraints.
+
+  - https://www.youtube.com/@joshbongard3314/playlists
+
+
+
+### vector Symbolic architectures 
+  - https://www.hd-computing.com/course-computing-with-high-dimensional-vectors
+
+### pixel arrays
+  - https://math.mit.edu/~dspivak/informatics/talks/PixelArrays--20161026--MIT.pdf
+
+
+
+
+### tensor decomposition
+  - https://www.youtube.com/watch?v=tm5am60CId4
+  - https://www.youtube.com/watch?v=1UbAJeix3To
+  - https://www.youtube.com/watch?v=L8uT6hgMt00
+  - https://www.youtube.com/watch?v=egPRhkIbZN4
+  - https://www.youtube.com/watch?v=YuB2exVzd1s
+  - https://www.youtube.com/watch?v=hmmnRF66hOA
+  - https://www.youtube.com/watch?v=O-YTsSuEFiM
+  - https://www.youtube.com/watch?v=WJadDPYN5Oc
+  - https://www.youtube.com/watch?v=HCy04Gu9-vc
+  - https://www.youtube.com/watch?v=_gIb6PzBEc4&list=PL4L59zaizb3E-Pgp-f90iKHdQQi15JJoL
+  - https://www.youtube.com/watch?v=mnDC6hWWbwY&list=PL4L59zaizb3EgNQ07RlyH9PFvfcbddRUu
+  - https://www.youtube.com/watch?v=mnDC6hWWbwY&list=PL4L59zaizb3EgNQ07RlyH9PFvfcbddRUu
+
+
+### data manifolds
+  
+  - https://www.youtube.com/watch?v=7N2D226vYCQ
+  - https://vimeo.com/221341400
+  - https://www.youtube.com/watch?v=G9JZLvogpAg
+  - https://www.youtube.com/watch?v=X9ktWgJ7ung
+  - https://www.youtube.com/watch?v=7WEOG6jL248
+  - https://www.youtube.com/watch?v=8nUBqawu41k
+  - https://www.youtube.com/watch?v=kctyag2Xi8o 
+  - https://www.youtube.com/watch?v=bA6Ah8z-6mE
+  - https://www.youtube.com/watch?v=AWoeBzJd7uQ
+  - https://www.youtube.com/watch?v=L9iiJa1nZZk
+  - https://www.youtube.com/watch?v=NlMrvCYlOOQ
+  - https://www.youtube.com/watch?v=5ezFcy9CIWE
+  - https://www.youtube.com/watch?v=29yNM_PRuUo
+  - https://www.youtube.com/watch?v=UxEH7WySO60
+
+
+
