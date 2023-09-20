@@ -141,7 +141,9 @@ At minimum, we all have to be on board with these first ideas.
   - https://www.youtube.com/watch?v=AWoeBzJd7uQ
   - https://www.youtube.com/watch?v=L9iiJa1nZZk
   - https://www.youtube.com/watch?v=NlMrvCYlOOQ
+  - https://www.youtube.com/watch?v=5ezFcy9CIWE
   - https://www.youtube.com/watch?v=29yNM_PRuUo
+  - https://www.youtube.com/watch?v=UxEH7WySO60
 
-  
+
 
