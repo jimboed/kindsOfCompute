@@ -145,5 +145,6 @@ its a springboard to launch from once we agree on the minimum.
   - https://www.youtube.com/watch?v=29yNM_PRuUo
   - https://www.youtube.com/watch?v=UxEH7WySO60
 
-
+### eulerian magnification
+  - https://www.youtube.com/@AbeDavisResearch
 
