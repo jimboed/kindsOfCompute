@@ -147,4 +147,5 @@ its a springboard to launch from once we agree on the minimum.
 
 ### eulerian magnification
   - https://www.youtube.com/@AbeDavisResearch
-
+  - http://people.csail.mit.edu/mrub/vidmag/
+  - https://www.youtube.com/watch?v=rEoc0YoALt0
