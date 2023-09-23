@@ -149,3 +149,6 @@ its a springboard to launch from once we agree on the minimum.
   - https://www.youtube.com/@AbeDavisResearch
   - http://people.csail.mit.edu/mrub/vidmag/
   - https://www.youtube.com/watch?v=rEoc0YoALt0
+  - https://www.youtube.com/watch?v=5apFqYEx5ew
+  - https://www.youtube.com/watch?v=FKXOucXB4a8
+  
