@@ -155,6 +155,33 @@ its a springboard to launch from once we agree on the minimum.
 
 
 
+### cfa, frm, soa
+
+  - https://www.youtube.com/watch?v=-ffCJF1kmqo&list=PLIYnk9FMYcks9DjrOD0tgOvWBZSJ1YsQ1
+  - https://www.youtube.com/watch?v=Rh54GcZNY6k&list=PLIYnk9FMYcku_6fuLuZYfVEQx5goJKyU2
+  - https://www.youtube.com/watch?v=PMuyhM65Poc&list=PLIYnk9FMYcks5znLSGNfS9AU4YRPLJYx0
+
+
+
+
+  - https://www.youtube.com/watch?v=sKMt1qzmGfU&list=PLIYnk9FMYcksCoVznFEJArmFVR-R5KP0i
+  - https://www.youtube.com/watch?v=vnORdiLRk4g&list=PLIYnk9FMYckv5OXsgYgkm4-kZeN8c5DcW
+  - https://www.youtube.com/watch?v=G0GHQ1NHnII&list=PLIYnk9FMYcktiidMmEwazO4LChWNvkPfM
+  - https://www.youtube.com/watch?v=P9V9nEGgo7E&list=PLIYnk9FMYcktSBKnNlh1l73EfeuAQa9pW
+  - https://www.youtube.com/watch?v=7JIcib2UAFY&list=PLIYnk9FMYckvi3K7i9djXMj0cFkkCmdZw
+  - https://www.youtube.com/watch?v=A59ocNQIrGw&list=PLIYnk9FMYcktxSOSPYgzdSzMMrUQpm4C4
+  - https://www.youtube.com/watch?v=7UmaX_g-7eg&list=PLIYnk9FMYckt_zLb75HIn04HxGvWZU1HY
+  - https://www.youtube.com/watch?v=TguAvyxM6vg&list=PLIYnk9FMYckuau7y6DQOe_6RYzlwLOAUo
+  - https://www.youtube.com/watch?v=aNbai2BE5Dg&list=PLIYnk9FMYckunxs3qv13zy77DQH48buR2
+
+
+
+
+  - https://www.youtube.com/watch?v=vaIqxP437bs&list=PLIYnk9FMYcksTDanxOE6LOoMhJvpz9SN3
+  - https://www.youtube.com/watch?v=aJtM6QHzrGw&list=PLIYnk9FMYckuhx-8FdoulMoM3-1tsACzO
+
+
+
 
 ### this is why the game is not over
-  - https://www.youtube.com/watch?v=ojMjSSvDZxU
+  - https://www.youtube.com/watch?v=ojMjSSvDZxU 
