@@ -16,7 +16,8 @@ At minimum, we all have to be on board with these first ideas.
   - https://www.youtube.com/@NathanKutzAMATH/videos
   - https://www.youtube.com/@Eigensteve/videos
 
-
+### time delay embeddings
+  - https://www.youtube.com/watch?v=K17xYlg_Y_o
 
 ### anton kriel
   - https://www.youtube.com/watch?v=vbuborn14Mc
