@@ -18,7 +18,7 @@ At minimum, we all have to be on board with these first ideas.
 
 ### time delay embeddings
   - https://www.youtube.com/watch?v=K17xYlg_Y_o
-
+  - https://www.youtube.com/watch?v=OFCN7_zO4H4
 ### anton kriel
   - https://www.youtube.com/watch?v=vbuborn14Mc
   - https://www.youtube.com/watch?v=-UG11JzWzMY
