@@ -14,7 +14,16 @@ At minimum, we all have to be on board with these first ideas.
 
 ### nathan kutz/steve brunton data science book: 
   - https://www.youtube.com/@NathanKutzAMATH/videos
-  - https://wwsaw.youtube.com/@Eigensteve/videos
+
+
+  - https://www.youtube.com/watch?v=pzo13OPXZS4&list=PLMrJAkhIeNNQV7wi9r7Kut8liLFMWQOXn
+  - https://www.youtube.com/watch?v=gXbThCXjZFM&list=PLMrJAkhIeNNSVjnsviglFoY2nXildDCcv
+  - https://www.youtube.com/watch?v=jNC0jxb0OxE&list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC
+  - https://www.youtube.com/watch?v=Pi7l8mMjYVE&list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m
+  - https://www.youtube.com/watch?v=Kap3TZwAsv0&list=PLMrJAkhIeNNR6DzT17-MM1GHLkuYVjhyt
+
+
+  
 
 ### time delay embeddings
   - https://www.youtube.com/watch?v=K17xYlg_Y_o
