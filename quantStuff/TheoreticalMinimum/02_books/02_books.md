@@ -1,8 +1,11 @@
 # books
+ 
 
-### howard marks 2 books, 
-  - mastering the market cycle
-  - the most important thing
+
+
+- mastering the market cycle -- By howard marks
+
+- the most important thing -- By howard marks
 
 - A Monetary and Fiscal History of the United States, 1961-2021
 
