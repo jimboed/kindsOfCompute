@@ -26,6 +26,6 @@
     - if the library covers a large set of behaviors, you can use the changes in the description of the stock as a signal for changes in behaviors. 
     - and you can use the library as clustering descriptors to show you when one stock starts behaving like another stock, so you can use one to predict another. 
 
-
+    - kiss mby butt -- by jim. 
 
 
